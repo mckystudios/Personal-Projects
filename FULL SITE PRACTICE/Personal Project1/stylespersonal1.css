@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #005EEB;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #034AC1;
+}
+.navbar h1{
+    color: #fff;
+    font-weight: 100;
+}
+.navbar ul{
+    margin-top: 10px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    word-spacing: 10px;
+}
+
+.quickreference h1{
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    margin-top: 50px;
+}
+
+.quickreference p{
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    font-weight: lighter;
+}
+.srchbtnm{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.srchbtnm input{
+    padding: 15px;
+    border-style: none;
+    width: 850px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.cheatsheats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cheatsheats div{
+    background: #F5F6FB;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.cheatsheats div h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.prl .prlmain h1{
+    margin-bottom: 10px;
+}
+.prlmain{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.prlbox{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.prlbox1, .prlbox2, .prlbox3{
+    border: 2px solid rgb(235, 234, 234);
+    /* box-sizing: border-box; */
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.prlbox1 div h2{
+    margin-bottom: 8px;
+}
+.prlbox1 div p{
+    margin-bottom: 8px;
+}
+.prlbox2 div h2{
+    margin-bottom: 8px;
+}
+.prlbox2 div p{
+    margin-bottom: 8px;
+}
+.prlbox3 div h2{
+    margin-bottom: 8px;
+}
+.prlbox3 div p{
+    margin-bottom: 8px;
+}
+.why{
+    background-color: #F0F4FE;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.why h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.whymain{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 30px;
+}
+.why1txt{
+    display: flex;
+    gap: 20px;
+}
+.why2txt{
+    display: flex;
+    gap: 20px;
+}
+.why3txt{
+    display: flex;
+    gap: 20px;
+}
+.why1 p{
+    margin-top: 20px;
+}
+.why2 p{
+    margin-top: 20px;
+}
+.why3 p{
+    margin-top: 20px;
+}
+.textb1, .textb2, .textb3{
+    background-color: #005EEB;
+    padding: 5px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+.universe{
+    background: black;
+    color: white;
+}
+.uninavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.uninavbar ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+}
+.unicreate{
+    margin-left: 900px;
+}
+.uninavbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.unicreate a{
+    text-decoration: none;
+    color: white;
+}
+.unimiddletext{
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.unimiddletext h3{
+    font-size: 12px;
+    color: rgb(2, 216, 2);
+}
+.unimiddletext h1{
+    font-size: 100px;
+}
+.unimiddletext p{
+    line-height: 30px;
+}
+.unicreate .uniatag1{
+    background: linear-gradient(45deg, purple, rgb(196, 1, 255));
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px 30px;
+}
+.unicreate .uniatag2{
+    background: rgb(65, 64, 64);
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.unisrch input{
+    padding: 15px;
+    border-style: none;
+    width: 850px;
+    height: 50px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.unisrch{
+    display: flex;
+    justify-content: center;
+}
